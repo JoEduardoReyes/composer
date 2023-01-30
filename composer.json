@@ -1,14 +1,24 @@
 {
-  "name": "edarkmatter/text",
-  "autoload": {
-    "psr-4": {
-      "Text\\": "src/"
+    "name": "edark/composer",
+    "description": "un ejemplo de proyectos",
+    "type": "library",
+    "require": {
+        "nesbot/carbon": "2.x-dev"
     },
-    "files": [
-      "src/helpers.php"
-    ]
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^5.5"
-  }
+    "require-dev": {
+        "sebastian/code-unit-reverse-lookup": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Edark\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eduardo Reyes",
+            "email": "joeduardoreyes@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev"
 }
